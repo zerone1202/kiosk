@@ -1,5 +1,4 @@
 package org.example.lv1;
-git commit -m "Lv1 키오스크 기능 구현"
 
 import java.util.Scanner;
 
@@ -39,7 +38,6 @@ public class Main {
                 return;
             default:
                 System.out.println("잘못 입력하셨습니다.");
-            }
         }
     }
-
+}
