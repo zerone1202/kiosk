@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Kiosk {
     //    설명: 키오스크 프로그램의 메뉴를 관리하고 사용자 입력을 처리하는 클래스입니다.
+//  MenuItem, Menu 그리고 Kiosk 클래스의 필드에 직접 접근하지 못하도록 설정합니다.
     private List<Menu> menus;
 
     public Kiosk(List<Menu> menus) {

@@ -14,7 +14,7 @@ public class MenuItem {
         this.description = description;
     }
 
-    // 기능
+    // 기능 (MenuItem, Menu 그리고 Kiosk 클래스의 필드에 직접 접근하지 못하도록 설정합니다.)
     public String getName() {
         return name;
     }
